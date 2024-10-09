@@ -28,6 +28,9 @@ func main() {
 		fmt.Println(i)
 	}
 
+	e := Cliente.Cliente {
+		nombre: "oscar" apellido: "contreras" edad 26]
+	}
 	r := mux.NewRouter()
 
 	r.HandleFunc("/", homea)
